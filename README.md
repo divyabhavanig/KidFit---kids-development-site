@@ -1,5 +1,11 @@
 # KIDFIT overall development website for kids
-
+KiDFit presents a comprehensive solution for promoting children's physical, mental, and social
+well-being through engaging activities and games. With a user-friendly interface, robust functionality, and
+adherence to non-functional requirements such as performance, security, scalability, accessibility, and
+compatibility, KiDFit aims to provide a seamless and rewarding experience for both users and administrators.
+By prioritizing the holistic development of children and fostering a supportive online community, KiDFit
+stands poised to empower the next generation towards healthier and more active lifestyles.
+# UI
 <img width="527" alt="image" src="https://github.com/user-attachments/assets/9ff222e4-08f8-4f73-bf31-52cb47da71a9"><br>
 <img width="524" alt="image" src="https://github.com/user-attachments/assets/0a148867-e920-4151-aeeb-7ceab9ad6c65"><br>
 <img width="523" alt="image" src="https://github.com/user-attachments/assets/344e621f-71f2-4042-a519-807056de4117"><br>
