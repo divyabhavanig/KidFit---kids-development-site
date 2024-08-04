@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(180deg, #0F1035, #365486, #7FC7D9, #DCF2F1 );
+    font-family: 'Garamond', serif;
+    transition: background 1s ease-in-out;
+}
+
+#logo-image {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    #logo-image {
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #logo-image {
+        width: 200px;
+    }
+}
+
+.outer {
+    position: absolute;
+    width: 200px;
+    right: 0;
+    bottom: 0;
+    height: auto;
+}
+
+.container {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(40, 37, 37, 0.3);
+    background: rgba(255, 255, 255, 0.65);
+}
+
+h1 {
+    color: #333;
+}
+
+#startBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#startBtn:hover {
+    background-color: #45a049;
+}
+
+#breathingBuddy {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-top: 20px;
+    border-radius: 50%;
+    display: none;
+    transition: transform 3s ease-in-out;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #b4e7d5, #93c3db);
+    z-index: -1;
+}

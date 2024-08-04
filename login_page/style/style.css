@@ -1,0 +1,252 @@
+/* Add or update these styles in your style.css file */
+
+body {
+    background: linear-gradient(to top, #190019, #2b124c, #5e3568, #9f6082, #DFB6B2, #FBE4D8);
+    transition: background 1s ease-in-out;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.box {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.form-box {
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.form-box header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.form-box form .field {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-box form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.btn {
+    height: 35px;
+    background: rgba(76, 68, 182, 0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn:hover {
+    opacity: 0.82;
+}
+
+.submit {
+    width: 100%;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.55);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    padding-left: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-links a {
+    padding: 0 10px;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 20px; 
+    align-content: center;
+    
+    
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px; 
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+     /* Adjust the width as needed */
+    margin: 10px;
+}
+
+/* Achievements Section */
+.achievements {
+    
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 48%; /* Adjust the width as needed */
+    background-color: #fff;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.achievements h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+
+}
+
+.badge {
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+.badge img{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.badge img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #777;
+}
+
+.message a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
+
+#logo-image {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: auto;
+    padding-left: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+    #logo-image {
+        width: 125px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #logo-image {
+        width: 175px;
+    }
+}
+#achieve{
+    background-color: #fff;
+
+}
+
+.abadges
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; 
+}
+
+
+
+
+.box,
+.achievements {
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+}
+
+.main-box .top {
+    width: 100%;
+}

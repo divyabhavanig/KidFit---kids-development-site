@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    overflow: hidden;
+    background: conic-gradient(from -125DEG,#BAE1D6,#DBB5CE,#E4ABBE,#EEB889,#EEB889,#E4ABBE,#DBB5CE,#BAE1D6);
+    transition: background 0.5s ease-in-out;
+    position: relative;
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    margin: 10px 0;
+    height: 40px;
+    font-size: 2.5em;
+    color: #FF69B4;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    border: 3px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+#board div {
+    width: 180px;
+    height: 150px;
+    background-image: url("./pictures/pipe.png");
+    background-size: cover;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+#board div:hover {
+    transform: rotate(15deg);
+}
+
+#board div img {
+    width: 100px;
+    height: 100px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#level-message {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #FF4500;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+#message-display {
+    display: none;
+    font-size: 24px;
+    color: #f00;
+    margin-top: 20px;
+}
+
+#bunny-image {
+    position: fixed;
+    bottom: 10px; /* Adjust the bottom position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    #bunny-image {
+        width: 150px; /* Adjust width for larger screens */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #bunny-image {
+        width: 275px; /* Further adjust width for even larger screens */
+    }
+}
+
+#logo-image {
+    position: fixed;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    #logo-image {
+        width: 200px; /* Adjust width for larger screens */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #logo-image {
+        width: 275px; /* Further adjust width for even larger screens */
+    }
+}
+
+#dragon-image {
+    position: fixed;
+    bottom: 10px; /* Adjust the bottom position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    #dragon-image {
+        width: 150px; /* Adjust width for larger screens */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #dragon-image {
+        width: 275px; /* Further adjust width for even larger screens */
+    }
+}

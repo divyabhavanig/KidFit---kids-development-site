@@ -1,0 +1,140 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background: conic-gradient(from -125DEG, #BAE1D6, #DBB5CE, #E4ABBE, #EEB889, #EEB889, #E4ABBE, #DBB5CE, #BAE1D6);
+    font-family: 'Garamond', serif;
+    transition: background 1s ease-in-out;
+}
+
+#game-container {
+    background: rgba(255, 255, 255, 0.45);
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(40, 37, 37, 0.3);
+}
+
+#level-display {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 10px;
+    color: #1bc4a8;
+}
+
+#color-display {
+    width: 80px;
+    height: 80px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background: currentColor;
+    cursor: pointer;
+    animation: pulsate 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+.object {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    cursor: pointer;
+    background-size: cover;
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgba(235, 184, 184, 0.2);
+}
+
+.object:hover {
+    transform: scale(1.1) translateY(-10px) rotate(5deg);
+}
+
+.object img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 5px rgba(188, 143, 143, 0.3);
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    #game-container {
+        font-size: 18px;
+    }
+
+    .object {
+        width: 80px;
+        height: 80px;
+    }
+
+    #color-display {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+#message-display {
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f67280;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#bunny-image {
+    position: fixed;
+    bottom: 10px; /* Adjust the bottom position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    #bunny-image {
+        width: 150px; /* Adjust width for larger screens */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #bunny-image {
+        width: 275px; /* Further adjust width for even larger screens */
+    }
+}
+
+#logo-image {
+    position: fixed;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    #logo-image {
+        width: 200px; /* Adjust width for larger screens */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #logo-image {
+        width: 275px; /* Further adjust width for even larger screens */
+    }
+}

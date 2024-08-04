@@ -1,0 +1,108 @@
+color rabbit pink 
+shape turtle pink
+simon dolphin blue
+meditation sloth green
+fairy  dragon n prince 
+aptitude fox blue
+music 3 penguin green
+math koala blue
+memory elephant 
+
+fairy  dragon n prince 
+color rabbit pink
+shape turtle pink
+
+
+
+color pink 
+memory green
+aptitude blue 
+
+plant pink
+camping green
+simon blue
+
+fairy pink
+COOK green
+cycling blue 
+
+art pink
+meditation green
+math :blue 
+
+shape :pink
+MUSIC green
+ swim blue
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    overflow: hidden;
+    background: conic-gradient(from -125DEG,#BAE1D6,#DBB5CE,#E4ABBE,#EEB889,#EEB889,#E4ABBE,#DBB5CE,#BAE1D6);
+    transition: background 0.5s ease-in-out;
+}
+
+#game-container {
+    background: rgba(255, 255, 255, 0.45); /* White color with 90% opacity */
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(40, 37, 37, 0.3);
+}
+
+simon dolphin blue
+aptitude fox blue
+math koala blue
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(180deg, #0F1035, #365486, #7FC7D9, #DCF2F1 );
+    font-family: 'Garamond', serif;
+    transition: background 1s ease-in-out;
+}
+
+#game-container {
+    background: rgba(255, 255, 255, 0.65); /* White color with 90% opacity */
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(40, 37, 37, 0.3);
+}
+
+meditation sloth green
+memory elephant 
+music 3 penguin green
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #b4e7d5, #93c3db);
+    z-index: -1;
+}
+
+HOME 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    overflow: hidden;
+    background: linear-gradient(TO TOP,#190019,#2b124c,#5e3568,#9f6082,#DFB6B2,#FBE4D8);
+    transition: background 0.5s ease-in-out;
+}
+

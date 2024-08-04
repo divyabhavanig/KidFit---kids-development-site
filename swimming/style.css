@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(180deg, #0F1035, #365486, #7FC7D9, #DCF2F1 );
+    font-family: 'Garamond', serif;
+    transition: background 1s ease-in-out;
+}
+
+.activity-container {
+    background: rgba(255, 255, 255, 0.45);
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(40, 37, 37, 0.3);
+}
+header {
+    background-color: rgba(251, 240, 246, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav img {
+    height: 30px;
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6f61; /* Coral */
+}
+
+.activity-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(40, 37, 37, 0.3);
+    padding: 10px; /* Decrease padding */
+}
+
+
+.instructions-box .materials-box {
+    flex: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    padding: 10px; /* Decrease padding */
+    margin: 5px; /* Decrease margin */
+}
+
+.instructions {
+    max-width: 600px;
+}
+
+.instructions h2 {
+    color: #333; /* Dark Gray */
+}
+
+.instructions ul,
+.instructions ol {
+    list-style: none;
+    padding: 0;
+}
+
+.instructions li {
+    margin-bottom: 15px;
+}
+
+
+footer {
+    background-color: rgb(167, 128, 128);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.materials-box,
+.instructions-box {
+    flex: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.materials h2,
+.instructions h2 {
+    color: #040118;
+}
+
+.materials ul,
+.instructions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.materials li,
+.instructions li {
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    img {
+        width: 250px; /* Adjust width for larger screens */
+        height: 290px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    img {
+        width: 270px; /* Further adjust width for even larger screens */
+        height: 270px;
+    }
+}
+
+
+.hidden {
+    display: none;
+}
+
+#congrats-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index:1000;
+}
+#feedback-container{
+    color: red;
+    font-size: 30px;
+}
+#submit-button{
+    border-radius: 15px;
+    background-color: #E4ABBE;
+    height: 30px;
+    width: 70px;
+}
+
+img{
+    width: 250px;
+    height: 215px;
+    padding-bottom: 20px;
+}
